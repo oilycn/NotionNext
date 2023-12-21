@@ -75,7 +75,7 @@ const Hero = props => {
 
             <LazyImage id='header-cover' src={siteInfo?.pageCover}
                 className={`header-cover w-full h-screen object-cover object-center ${CONFIG.HOME_NAV_BACKGROUND_IMG_FIXED ? 'fixed' : ''}`} />
-            <header id='header-jin' className="bg-black"> </header>
+            <header id='header-jin' className="header-cover w-full h-screen object-cover object-center "> </header>
         </header>
   )
 }
